@@ -1,0 +1,320 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WebScraping/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.24",
+          "PhantomJS": "2.1.1",
+          "Selenium.PhantomJS.WebDriver": "2.1.1",
+          "Selenium.WebDriver": "4.0.0-alpha05",
+          "Selenium.WebDriver.ChromeDriver": "85.0.4183.8700",
+          "System.Text.Encoding.CodePages": "4.0.1-rc2-24027",
+          "phantomjs.exe": "1.9.2.1"
+        },
+        "runtime": {
+          "WebScraping.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.11.24": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.24.0",
+            "fileVersion": "1.11.24.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "PhantomJS/2.1.1": {},
+      "phantomjs.exe/1.9.2.1": {
+        "dependencies": {
+          "PhantomJS": "2.1.1"
+        }
+      },
+      "Selenium.PhantomJS.WebDriver/2.1.1": {},
+      "Selenium.WebDriver/4.0.0-alpha05": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/85.0.4183.8700": {},
+      "System.Collections/4.0.11-rc2-24027": {
+        "dependencies": {
+          "System.Runtime": "4.1.0-rc2-24027"
+        }
+      },
+      "System.Globalization/4.0.11-rc2-24027": {
+        "dependencies": {
+          "System.Runtime": "4.1.0-rc2-24027"
+        }
+      },
+      "System.IO/4.1.0-rc2-24027": {
+        "dependencies": {
+          "System.Runtime": "4.1.0-rc2-24027",
+          "System.Text.Encoding": "4.0.11-rc2-24027",
+          "System.Threading.Tasks": "4.0.11-rc2-24027"
+        }
+      },
+      "System.Reflection/4.1.0-rc2-24027": {
+        "dependencies": {
+          "System.IO": "4.1.0-rc2-24027",
+          "System.Reflection.Primitives": "4.0.1-rc2-24027",
+          "System.Runtime": "4.1.0-rc2-24027"
+        }
+      },
+      "System.Reflection.Primitives/4.0.1-rc2-24027": {
+        "dependencies": {
+          "System.Runtime": "4.1.0-rc2-24027"
+        }
+      },
+      "System.Resources.ResourceManager/4.0.1-rc2-24027": {
+        "dependencies": {
+          "System.Globalization": "4.0.11-rc2-24027",
+          "System.Reflection": "4.1.0-rc2-24027",
+          "System.Runtime": "4.1.0-rc2-24027"
+        }
+      },
+      "System.Runtime/4.1.0-rc2-24027": {},
+      "System.Runtime.Extensions/4.1.0-rc2-24027": {
+        "dependencies": {
+          "System.Runtime": "4.1.0-rc2-24027"
+        }
+      },
+      "System.Runtime.Handles/4.0.1-rc2-24027": {
+        "dependencies": {
+          "System.Runtime": "4.1.0-rc2-24027"
+        }
+      },
+      "System.Runtime.InteropServices/4.1.0-rc2-24027": {
+        "dependencies": {
+          "System.Reflection": "4.1.0-rc2-24027",
+          "System.Reflection.Primitives": "4.0.1-rc2-24027",
+          "System.Runtime": "4.1.0-rc2-24027",
+          "System.Runtime.Handles": "4.0.1-rc2-24027",
+          "System.Runtime.InteropServices.PInvoke": "4.0.0-rc2-24027"
+        }
+      },
+      "System.Runtime.InteropServices.PInvoke/4.0.0-rc2-24027": {
+        "dependencies": {
+          "System.Runtime": "4.1.0-rc2-24027",
+          "System.Runtime.Handles": "4.0.1-rc2-24027"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.InteropServices.PInvoke.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.24027.0"
+          }
+        }
+      },
+      "System.Text.Encoding/4.0.11-rc2-24027": {
+        "dependencies": {
+          "System.Runtime": "4.1.0-rc2-24027"
+        }
+      },
+      "System.Text.Encoding.CodePages/4.0.1-rc2-24027": {
+        "dependencies": {
+          "System.Collections": "4.0.11-rc2-24027",
+          "System.Globalization": "4.0.11-rc2-24027",
+          "System.IO": "4.1.0-rc2-24027",
+          "System.Reflection": "4.1.0-rc2-24027",
+          "System.Resources.ResourceManager": "4.0.1-rc2-24027",
+          "System.Runtime": "4.1.0-rc2-24027",
+          "System.Runtime.Extensions": "4.1.0-rc2-24027",
+          "System.Runtime.Handles": "4.0.1-rc2-24027",
+          "System.Runtime.InteropServices": "4.1.0-rc2-24027",
+          "System.Text.Encoding": "4.0.11-rc2-24027",
+          "System.Threading": "4.0.11-rc2-24027"
+        }
+      },
+      "System.Threading/4.0.11-rc2-24027": {
+        "dependencies": {
+          "System.Runtime": "4.1.0-rc2-24027",
+          "System.Threading.Tasks": "4.0.11-rc2-24027"
+        }
+      },
+      "System.Threading.Tasks/4.0.11-rc2-24027": {
+        "dependencies": {
+          "System.Runtime": "4.1.0-rc2-24027"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebScraping/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HtmlAgilityPack/1.11.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DLcytINO8EfCdBgMGsaz8Tvdgu2Aewoo2XX7WfZuRG9cBQRtbm8JZ4/sMRtFvzehjdIDqubdlQb8TqNfjRMEWg==",
+      "path": "htmlagilitypack/1.11.24",
+      "hashPath": "htmlagilitypack.1.11.24.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "PhantomJS/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-31xkN06TjBGQ9/8sGkm8IAN4DM/gMDChryu9Pp1ng9OK/xLPL2ZNbAgRCaB2g9vDkUDvhHjBEtP9JRenMDiHUg==",
+      "path": "phantomjs/2.1.1",
+      "hashPath": "phantomjs.2.1.1.nupkg.sha512"
+    },
+    "phantomjs.exe/1.9.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cs9l9/eSYLqB/JGpaQPobsj7R87jdFd/GoJTEp+x0Oqb9vYx0wVp0/Dz/oMzSPGL3me2RKGR0bgqH3ysMRDSrg==",
+      "path": "phantomjs.exe/1.9.2.1",
+      "hashPath": "phantomjs.exe.1.9.2.1.nupkg.sha512"
+    },
+    "Selenium.PhantomJS.WebDriver/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RkbBQqVh47WZWQjwl5iM/FFzY6ST89w9Pts31Vft36H/10gCLipRoSsM/ewkSm8EUWibagOVyAOQDqsL5RSzhw==",
+      "path": "selenium.phantomjs.webdriver/2.1.1",
+      "hashPath": "selenium.phantomjs.webdriver.2.1.1.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.0.0-alpha05": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZaaY0T5eTDjxcJSZbgZuVUbc4eCSoY8cCjLHwAjHoeBBZQIq3SrlCTkaFNZ46288niZUlS9a5ehLAF7rpa86zQ==",
+      "path": "selenium.webdriver/4.0.0-alpha05",
+      "hashPath": "selenium.webdriver.4.0.0-alpha05.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/85.0.4183.8700": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UaHj0RDkUoNtvYTVfZJk9Im/YpQX2nxugUZ5qWwx9phVu33tiecpBeTqQk4IPz8GQqUUjKdlT4QxKgu8VPafnA==",
+      "path": "selenium.webdriver.chromedriver/85.0.4183.8700",
+      "hashPath": "selenium.webdriver.chromedriver.85.0.4183.8700.nupkg.sha512"
+    },
+    "System.Collections/4.0.11-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wi4oT2B06Ev7vDPeJki7HVJ3qPYJIilzf+p81JuNaBD9L2wi9Y2L5BsQ6ToncW+lYZafuMea/hiK1xX1Ge1VWQ==",
+      "path": "system.collections/4.0.11-rc2-24027",
+      "hashPath": "system.collections.4.0.11-rc2-24027.nupkg.sha512"
+    },
+    "System.Globalization/4.0.11-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RDterYo6tAE2YslHrhvAdrAkTdhGkml7tg5JGX/XwgN2GGkB3NkiqigBSaUEV4S2ftCzCFDIhCxqQy57lAsEIA==",
+      "path": "system.globalization/4.0.11-rc2-24027",
+      "hashPath": "system.globalization.4.0.11-rc2-24027.nupkg.sha512"
+    },
+    "System.IO/4.1.0-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VQRYN33mwALJ1UWfxxMqXzKCYUDNMUeU6j8YCxVcLCBx3Oa/l7i15NQv/OAebfOVSmBa3LmBTRP4rQqChrCbFg==",
+      "path": "system.io/4.1.0-rc2-24027",
+      "hashPath": "system.io.4.1.0-rc2-24027.nupkg.sha512"
+    },
+    "System.Reflection/4.1.0-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RMJrRP3I71J5PLfsX2reWDPltwJs/pJ+CbIqa2ccDVop2WlBq6CuV7FOo7l77nuYFKODI6kpATLXZKiq8V8aEQ==",
+      "path": "system.reflection/4.1.0-rc2-24027",
+      "hashPath": "system.reflection.4.1.0-rc2-24027.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.0.1-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/FgLaA5DnqSVZVm5+eqhSjezjBCRo7+W5LzUsa3nQul6hHbMGkB2uuN8Tt6UfpLzKZ5QimefeDKkLYmChBnskQ==",
+      "path": "system.reflection.primitives/4.0.1-rc2-24027",
+      "hashPath": "system.reflection.primitives.4.0.1-rc2-24027.nupkg.sha512"
+    },
+    "System.Resources.ResourceManager/4.0.1-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WFDuYprqRWAVcQzArAqgabw9bbGPBaogBG17sGtZ5Iyb7ddOcIs89QYdcxdatPkSYOFNWydwSY2fyOjhIKMIcA==",
+      "path": "system.resources.resourcemanager/4.0.1-rc2-24027",
+      "hashPath": "system.resources.resourcemanager.4.0.1-rc2-24027.nupkg.sha512"
+    },
+    "System.Runtime/4.1.0-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sDyyCeXycMSiNP4z1wyeyXlZSb26/OXIAwqnDsOAjw9PL3r8OgDRJgt4SH6Qid5z6E5IEGTKwjBjrHJGoa8bag==",
+      "path": "system.runtime/4.1.0-rc2-24027",
+      "hashPath": "system.runtime.4.1.0-rc2-24027.nupkg.sha512"
+    },
+    "System.Runtime.Extensions/4.1.0-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rHmAgtQY8XlVd4tB/5ta8IzxAL9gpUlkTYQgUXDjdHux2MFmDSJv4vgm/atmwbKZcd0TnzjD2SYpnkWSqDWgFg==",
+      "path": "system.runtime.extensions/4.1.0-rc2-24027",
+      "hashPath": "system.runtime.extensions.4.1.0-rc2-24027.nupkg.sha512"
+    },
+    "System.Runtime.Handles/4.0.1-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zAfnDT+YDOnVK2ZSoE+70LU94207gz0AO1B+ELtfsZB6a35yVFBo9XTE/nK9QwsZxnknPIqoQ1CJz434TC5PFA==",
+      "path": "system.runtime.handles/4.0.1-rc2-24027",
+      "hashPath": "system.runtime.handles.4.0.1-rc2-24027.nupkg.sha512"
+    },
+    "System.Runtime.InteropServices/4.1.0-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HMTGM3YyFBqDSP4STwC2YC51PInAQNMRj4V3rodwhaeAl+DnRKYqRFnd3eO2l99JqrcBIgg48SFGU9zglQC38w==",
+      "path": "system.runtime.interopservices/4.1.0-rc2-24027",
+      "hashPath": "system.runtime.interopservices.4.1.0-rc2-24027.nupkg.sha512"
+    },
+    "System.Runtime.InteropServices.PInvoke/4.0.0-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KS562Uiu5jWEJqIihGZs7P+H/2rasaQC1HE0ZAx6A/2V2G8kFDydYEEB8Zs/M7roRsiCrdaj7chuokiAghShFg==",
+      "path": "system.runtime.interopservices.pinvoke/4.0.0-rc2-24027",
+      "hashPath": "system.runtime.interopservices.pinvoke.4.0.0-rc2-24027.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.0.11-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WyhCB3a669kXgMXEBx+T0G+bulfT0xzhYqZvuIGm22qIFlS85z11df279viqqjkwv2PDQvLjE2YKhRqkvdEd3g==",
+      "path": "system.text.encoding/4.0.11-rc2-24027",
+      "hashPath": "system.text.encoding.4.0.11-rc2-24027.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.0.1-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hoE1NcYMD2fwCotbt/I+B/6p0gyxp82MiKTZ5OKK2O7nMJ8sjF7YtzyVicvxD7e3sBDyCZWdcbMEW09M/C+IAQ==",
+      "path": "system.text.encoding.codepages/4.0.1-rc2-24027",
+      "hashPath": "system.text.encoding.codepages.4.0.1-rc2-24027.nupkg.sha512"
+    },
+    "System.Threading/4.0.11-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JdVfUj82+pkIGfpUeb28HdwxoUMR7lTL5LT2iX9gyKtIo4yv2VirGPFVvohdlN9t9My+dIlYb9W4z1YlZV/RIA==",
+      "path": "system.threading/4.0.11-rc2-24027",
+      "hashPath": "system.threading.4.0.11-rc2-24027.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.0.11-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BULvVgPxKNzMgAZpaRHREYhbGFTDbwG84mR61gGcajhLo6nn7XS9E1Lzixiv3gANtT7HROH7h3LeMPMRsEvEPQ==",
+      "path": "system.threading.tasks/4.0.11-rc2-24027",
+      "hashPath": "system.threading.tasks.4.0.11-rc2-24027.nupkg.sha512"
+    }
+  }
+}

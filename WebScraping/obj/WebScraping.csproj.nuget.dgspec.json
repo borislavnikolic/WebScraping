@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nb150\\RiderProjects\\WebScraping\\WebScraping\\WebScraping.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nb150\\RiderProjects\\WebScraping\\WebScraping\\WebScraping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nb150\\RiderProjects\\WebScraping\\WebScraping\\WebScraping.csproj",
+        "projectName": "WebScraping",
+        "projectPath": "C:\\Users\\nb150\\RiderProjects\\WebScraping\\WebScraping\\WebScraping.csproj",
+        "packagesPath": "C:\\Users\\nb150\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nb150\\RiderProjects\\WebScraping\\WebScraping\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nb150\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.24, )"
+            },
+            "PhantomJS": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Selenium.PhantomJS.WebDriver": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.0.0-alpha05, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[85.0.4183.8700, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[4.0.1-rc2-24027, )"
+            },
+            "phantomjs.exe": {
+              "target": "Package",
+              "version": "[1.9.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

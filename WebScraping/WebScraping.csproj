@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="HtmlAgilityPack" Version="1.11.24" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="PhantomJS" Version="2.1.1" />
+        <PackageReference Include="phantomjs.exe" Version="1.9.2.1" />
+        <PackageReference Include="Selenium.PhantomJS.WebDriver" Version="2.1.1" />
+        <PackageReference Include="Selenium.WebDriver" Version="4.0.0-alpha05" />
+        <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="85.0.4183.8700" />
+        <PackageReference Include="System.Text.Encoding.CodePages" Version="4.0.1-rc2-24027" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Files" />
+    </ItemGroup>
+</Project>

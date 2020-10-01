@@ -166,7 +166,12 @@ namespace WebScraping
                          * number is current + 1 because pagination table number is rendered by
                          * window.onload() js methotod
                          */
-                        driver.FindElement(By.XPath("//table[3]/tbody/tr/td/div[@id='list_navigator']/span[@class = 'wcm_pointer nav_go_next']/a")).SendKeys(Keys.Enter);
+                        WebDriverWait waitForLink = new WebDriverWait(driver, TimeSpan.FromSeconds(MAX_WAIT_SECONDS));
+                        IWebElement link = waitForLink.Until(e => e.FindElement(By.XPath("//table[3]/tbody/tr/td/div[@id='list_navigator']/span[@class = 'wcm_pointer nav_go_next']/a")));
+                        waitForLink.Until(e => link.Enabled);
+                        link.SendKeys(Keys.Enter);
+                        //driver.FindElement(By.XPath("//table[3]/tbody/tr/td/div[@id='list_navigator']/span[@class = 'wcm_pointer nav_go_next']/a")).SendKeys(Keys.Enter);
+                        
                         WebDriverWait waitForNextPage = new WebDriverWait(driver, TimeSpan.FromSeconds(MAX_WAIT_SECONDS)); 
                         waitForNextPage.Until(e => e.FindElement(By.XPath("//table[3]/tbody/tr/td/div[@id='list_navigator']/span[@class = 'nav_page nav_currpage']")).Text.Equals(""+(i+1)));
                         
@@ -176,7 +181,7 @@ namespace WebScraping
                 
             }
         }
-
+        
         public static void WriteToFileStream(FileStream fs,string text)
         {
             Byte[] bytes = new UTF8Encoding(true).GetBytes(text+"\n");

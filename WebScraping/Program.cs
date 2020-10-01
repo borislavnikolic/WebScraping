@@ -105,7 +105,7 @@ namespace WebScraping
                   * window.onload() js methotod
                  */
                 WebDriverWait waitForFirstLoad = new WebDriverWait(driver, TimeSpan.FromSeconds(MAX_WAIT_SECONDS)); 
-                waitForFirstLoad.Until(e => e.FindElement(By.XPath("//table[3]/tbody/tr/td/div[@id='list_navigator']/span[@class = 'nav_page nav_currpage' and @title = 'First Page']")));
+                waitForFirstLoad.Until(e => e.FindElement(By.XPath("//table[3]/tbody/tr/td/div[@id='list_navigator']/span[@class = 'nav_page nav_currpage']")).Text.Equals("1"));
                 /*
                  * getting number of pagination tables for selected currency
                  */

@@ -4,11 +4,16 @@
     <projectFile>WebScraping/WebScraping.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d703623-3320-4928-bb3b-849e2f09bbb2" name="Default Changelist" comment="" />
+    <list default="true" id="8d703623-3320-4928-bb3b-849e2f09bbb2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebScraping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebScraping/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B950F65-742E-47A5-AAC8-DA2FAEDDE793/c8/76d8fad2/RemoteWebDriver.cs" root0="SKIP_HIGHLIGHTING" />
@@ -25,6 +30,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1iCmDgjBVy0REyWeDEh59RlKaZM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -73,7 +79,7 @@
       <updated>1601419832952</updated>
       <workItem from="1601419836323" duration="4447000" />
       <workItem from="1601446183562" duration="55114000" />
-      <workItem from="1601530275475" duration="6326000" />
+      <workItem from="1601530275475" duration="7645000" />
     </task>
     <servers />
   </component>
@@ -86,22 +92,30 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="247" key="GridCell.Tab.0.bottom" timestamp="1601534348460">
+    <state x="510" y="389" key="Github.ShareDialog" timestamp="1601538493527">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1601534348460" />
-    <state width="1237" height="247" key="GridCell.Tab.0.center" timestamp="1601534348460">
+    <state x="510" y="389" key="Github.ShareDialog/0.0.1280.984@0.0.1280.984" timestamp="1601538493527" />
+    <state x="415" y="197" key="Github.UntrackedFilesDialog" timestamp="1601539131089">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1601534348460" />
-    <state width="1237" height="247" key="GridCell.Tab.0.left" timestamp="1601534348459">
+    <state x="415" y="197" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1601539131089" />
+    <state width="1237" height="247" key="GridCell.Tab.0.bottom" timestamp="1601539703065">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1601534348459" />
-    <state width="1237" height="247" key="GridCell.Tab.0.right" timestamp="1601534348460">
+    <state width="1237" height="247" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1601539703065" />
+    <state width="1237" height="247" key="GridCell.Tab.0.center" timestamp="1601539703064">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1601534348460" />
+    <state width="1237" height="247" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1601539703064" />
+    <state width="1237" height="247" key="GridCell.Tab.0.left" timestamp="1601539703064">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="247" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1601539703064" />
+    <state width="1237" height="247" key="GridCell.Tab.0.right" timestamp="1601539703065">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="247" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1601539703065" />
     <state width="1237" height="352" key="GridCell.Tab.1.bottom" timestamp="1601511583211">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -170,5 +184,9 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="194" y="221" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.984@0.0.1280.984" timestamp="1601480084931" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1601538440865">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1601538440865" />
   </component>
 </project>
